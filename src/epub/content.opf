@@ -29,40 +29,54 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">A Bid for Fortune</dc:title>
 		<meta property="file-as" refines="#title">Bid for Fortune, A</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">Or, Dr. Nikola’s Vendetta</dc:title>
+		<meta property="file-as" refines="#subtitle">Or, Dr. Nikola’s Vendetta</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">A Bid for Fortune, or, Dr. Nikola’s Vendetta</dc:title>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<dc:subject id="subject-1">Fiction</dc:subject>
+		<dc:subject id="subject-2">Detective and mystery stories</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
+		<meta property="term" refines="#subject-1">sh85048050</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description"> LONG_DESCRIPTION </meta>
-		<dc:language>LANG</dc:language>
-		<dc:source>PG_URL</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
+		<meta property="term" refines="#subject-2">sh85037260</meta>
+		<meta property="se:subject">Fiction</meta>
+		<meta property="se:subject">Mystery</meta>
+		<dc:description id="description">A young Australian man struggles to reclaim his love from the clutches of an evil mastermind.</dc:description>
+		<meta id="long-description" property="se:long-description" refines="#description">
+			&lt;p&gt;Guy Newell Boothby, born in Adelaide, was one of the most popular of Australian authors in the late 19th and early 20th century, writing dozens of novels of sensational fiction.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;A Bid for Fortune, or Dr. Nikola’s Vendetta&lt;/i&gt; (1895) is the first of his series of five books featuring the sinister mastermind Dr. Nikola, a character of gothic appearance usually accompanied by a large black cat, and who has powers of mesmerism.&lt;/p&gt;
+			&lt;p&gt;In this first novel, the protagonist is a young Australian, Richard Hatteras, who has made a small fortune in pearl-diving operations in the Thursday Islands. With money in his pocket, he decides to travel. Visiting Sydney before taking ship for England, he meets and falls in love with the daughter of the Colonial Secretary, Sylvester Wetherell. As the story moves on, it is revealed that Wetherell has fallen foul of the evil Dr. Nikola, who has developed a devious scheme to force Wetherell to submit in to his demands to give him a mysterious oriental object he has acquired. The life and liberty of Hatteras’ lady-love are imperilled as Nikola’s plot moves on, and Hatteras has to make strenuous efforts to locate and free her.&lt;/p&gt;
+			&lt;p&gt;Boothby’s novels, particularly the Dr. Nikola books, achieved considerable popular success, particularly in his native country of Australia. A study of library borrowings in the early 20th Century has shown that Boothby’s works were almost as frequently borrowed in Australia as those of Charles Dickens and H. Rider Haggard.&lt;/p&gt;
+		</meta>
+		<dc:language>en-AU</dc:language>
+		<dc:source>http://gutenberg.net.au/ebooks06/0601591h.html</dc:source>
+		<dc:source>https://archive.org/details/abidforfortuneo00woodgoog</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/A_Bid_for_Fortune</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/guy-boothby_a-bid-for-fortune</meta>
 		<dc:creator id="author">Guy Boothby</dc:creator>
-		<meta property="file-as" refines="#author">AUTHOR_SORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">AUTHOR_FULL_NAME</meta>
+		<meta property="file-as" refines="#author">Boothby, Guy</meta>
+		<meta property="se:name.person.full-name" refines="#author">Guy Newell Boothby</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Guy_Boothby</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">AUTHOR_NACOAF_URL</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n50044545</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URL</meta>
+		<dc:contributor id="artist">Arthur Streeton</dc:contributor>
+		<meta property="file-as" refines="#artist">Streeton, Arthur</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Arthur_Streeton</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n89664455</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Colin Choat</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Choat, Colin</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-2">Roy Glashan</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Glashan, Roy</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">David Grigg</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Grigg, David</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://rightword.com.au/david.php</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -74,7 +88,9 @@
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
 		<item href="css/local.css" id="local.css" media-type="text/css"/>
+		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
+		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
 		<item href="text/chapter-1-1.xhtml" id="chapter-1-1.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-1-2.xhtml" id="chapter-1-2.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-1-3.xhtml" id="chapter-1-3.xhtml" media-type="application/xhtml+xml"/>
@@ -122,3 +138,4 @@
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
+</package>
