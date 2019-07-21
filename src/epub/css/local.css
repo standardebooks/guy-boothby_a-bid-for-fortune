@@ -19,6 +19,12 @@ footer{
 	margin-bottom: 1em;
 	text-align: left;
 	text-indent: 0;
+	font-variant: normal;
+}
+
+[epub|type~="se:letter.dateline"]{
+	text-align: right;
+	font-style: italic;
 }
 
 [epub|type~="z3998:letter"] footer{
@@ -59,4 +65,9 @@ footer{
 
 [epub|type~="z3998:song"] + p{
 	text-indent: 0;
+}
+
+.notice p{
+	text-align: center;
+	text-indent: 0
 }
