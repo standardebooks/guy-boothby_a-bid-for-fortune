@@ -12,23 +12,23 @@ header{
 }
 
 footer{
+	margin-top: 1em;
 	text-align: right;
 }
 
 [epub|type~="z3998:letter"] header{
 	margin-bottom: 1em;
 	text-align: left;
-	text-indent: 0;
 	font-variant: normal;
+}
+
+[epub|type~="z3998:letter"] header p{
+	text-indent: 0;
 }
 
 [epub|type~="se:letter.dateline"]{
 	text-align: right;
 	font-style: italic;
-}
-
-[epub|type~="z3998:letter"] footer{
-	margin-top: 1em;
 }
 
 [epub|type~="z3998:salutation"]{
