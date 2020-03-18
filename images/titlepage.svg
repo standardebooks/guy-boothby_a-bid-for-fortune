@@ -3,7 +3,7 @@
 	<title>The titlepage for the Standard Ebooks edition of A Bid for Fortune, by Guy Boothby</title>
 	<style type="text/css">
 		text{
-			font-family: League Spartan;
+			font-family: "League Spartan";
 			letter-spacing: 5px;
 			text-anchor: middle;
 		}
