@@ -13,7 +13,7 @@ footer{
 
 [epub|type~="z3998:letter"] header{
 	margin-bottom: 1em;
-	text-align: left;
+	text-align: initial;
 	font-variant: normal;
 }
 
@@ -22,7 +22,7 @@ footer{
 }
 
 [epub|type~="z3998:postscript"]{
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
 
@@ -49,7 +49,7 @@ footer{
 }
 
 [epub|type~="z3998:song"] p{
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
 
