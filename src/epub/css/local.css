@@ -21,6 +21,11 @@ footer{
 	text-indent: 0;
 }
 
+[epub|type~="z3998:postscript"]{
+	text-align: left;
+	text-indent: 0;
+}
+
 [epub|type~="se:letter.dateline"]{
 	text-align: right;
 	font-style: italic;
