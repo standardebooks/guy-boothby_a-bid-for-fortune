@@ -2,8 +2,8 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 header{
-	text-align: center;
 	font-variant: small-caps;
+	text-align: center;
 }
 
 footer{
@@ -12,9 +12,9 @@ footer{
 }
 
 [epub|type~="z3998:letter"] header{
+	font-variant: normal;
 	margin-bottom: 1em;
 	text-align: initial;
-	font-variant: normal;
 }
 
 [epub|type~="z3998:letter"] header p{
@@ -28,8 +28,8 @@ footer{
 }
 
 [epub|type~="se:letter.dateline"]{
-	text-align: right;
 	font-style: italic;
+	text-align: right;
 }
 
 [epub|type~="z3998:salutation"]{
