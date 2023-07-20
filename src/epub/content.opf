@@ -53,7 +53,7 @@
 		<dc:language>en-AU</dc:language>
 		<dc:source>https://gutenberg.net.au/ebooks06/0601591h.html</dc:source>
 		<dc:source>https://archive.org/details/abidforfortuneo00woodgoog</dc:source>
-		<meta property="se:word-count">89558</meta>
+		<meta property="se:word-count">89556</meta>
 		<meta property="se:reading-ease.flesch">80.01</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/guy-boothby_a-bid-for-fortune</meta>
 		<dc:creator id="author">Guy Boothby</dc:creator>
