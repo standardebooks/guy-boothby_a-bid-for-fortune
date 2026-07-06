@@ -57,7 +57,7 @@
 		<dc:source>https://archive.org/details/abidforfortuneo00woodgoog</dc:source>
 		<meta property="schema:wordCount">88518</meta>
 		<meta property="schema:educationalLevel">80.11</meta>
-		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
 		<link href="https://github.com/standardebooks/guy-boothby_a-bid-for-fortune" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Guy Boothby</dc:creator>
