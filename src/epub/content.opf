@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/guy-boothby/a-bid-for-fortune</dc:identifier>
 		<dc:date>2019-07-23T23:35:34Z</dc:date>
@@ -45,13 +45,13 @@
 		<meta property="term" refines="#subject-2">sh85037260</meta>
 		<meta property="schema:genre">Fiction</meta>
 		<meta property="schema:genre">Mystery</meta>
-		<dc:description id="description">A young Australian man struggles to reclaim his love from the clutches of an evil mastermind.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>A young Australian man struggles to reclaim his love from the clutches of an evil mastermind.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/guy-boothby"&gt;Guy Newell Boothby&lt;/a&gt;, born in Adelaide, was one of the most popular of Australian authors in the late 19th and early 20th century, writing dozens of novels of sensational fiction.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;A Bid for Fortune, or &lt;abbr&gt;Dr.&lt;/abbr&gt; Nikola’s Vendetta&lt;/i&gt; is the first of his series of five books featuring the sinister mastermind &lt;abbr&gt;Dr.&lt;/abbr&gt; Nikola, a character of gothic appearance usually accompanied by a large black cat, and who has powers of mesmerism.&lt;/p&gt;
 			&lt;p&gt;In this first novel, the protagonist is a young Australian, Richard Hatteras, who has made a small fortune in pearl-diving operations in the Thursday Islands. With money in his pocket, he decides to travel. Visiting Sydney before taking ship for England, he meets and falls in love with the daughter of the Colonial Secretary, Sylvester Wetherell. As the story moves on, it is revealed that Wetherell has fallen foul of the evil &lt;abbr&gt;Dr.&lt;/abbr&gt; Nikola, who has developed a devious scheme to force Wetherell to submit in to his demands to give him a mysterious oriental object he has acquired. The life and liberty of Hatteras’ lady-love are imperilled as Nikola’s plot moves on, and Hatteras has to make strenuous efforts to locate and free her.&lt;/p&gt;
 			&lt;p&gt;Boothby’s novels, particularly the &lt;abbr&gt;Dr.&lt;/abbr&gt; Nikola books, achieved considerable popular success, particularly in his native country of Australia. A study of library borrowings in the early 20th Century has shown that Boothby’s works were almost as frequently borrowed in Australia as those of &lt;a href="https://standardebooks.org/ebooks/charles-dickens"&gt;Charles Dickens&lt;/a&gt; and &lt;a href="https://standardebooks.org/ebooks/h-rider-haggard"&gt;&lt;abbr&gt;H.&lt;/abbr&gt; Rider Haggard&lt;/a&gt;.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-AU</dc:language>
 		<dc:source>https://www.gutenberg.net.au/ebooks06/0601591h.html</dc:source>
 		<dc:source>https://archive.org/details/abidforfortuneo00woodgoog</dc:source>
