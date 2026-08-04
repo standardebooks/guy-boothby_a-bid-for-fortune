@@ -45,7 +45,7 @@
 		<meta property="term" refines="#subject-2">sh85037260</meta>
 		<meta property="schema:genre">Fiction</meta>
 		<meta property="schema:genre">Mystery</meta>
-		<dc:abstract>A young Australian man struggles to reclaim his love from the clutches of an evil mastermind.</dc:abstract>
+		<meta property="schema:abstract">A young Australian man struggles to reclaim his love from the clutches of an evil mastermind.</meta>
 		<dc:description>
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/guy-boothby"&gt;Guy Newell Boothby&lt;/a&gt;, born in Adelaide, was one of the most popular of Australian authors in the late 19th and early 20th century, writing dozens of novels of sensational fiction.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;A Bid for Fortune, or &lt;abbr&gt;Dr.&lt;/abbr&gt; Nikola’s Vendetta&lt;/i&gt; is the first of his series of five books featuring the sinister mastermind &lt;abbr&gt;Dr.&lt;/abbr&gt; Nikola, a character of gothic appearance usually accompanied by a large black cat, and who has powers of mesmerism.&lt;/p&gt;
